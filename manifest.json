@@ -1,0 +1,20 @@
+{
+    "name": "Title Extracter",
+    "description": "Extracts the title from the active website",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "/popup/popup.html"
+    },
+    "icons": {
+        "16": "/images/icon_16.png",
+        "24": "/images/icon_24.png",
+        "32": "/images/icon_32.png",
+        "64": "/images/icon_64.png",
+        "128": "/images/icon_128.png"
+    }
+}
